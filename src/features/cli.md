@@ -104,8 +104,7 @@ These parameters are supported by all Parcel commands.
 | `--cert <path>`     | Path to a certificate to use. See [HTTPS](/features/development/#https).                                                                   |
 | `--key <path>`      | Path to a private key to use. See [HTTPS](/features/development/#https).                                                                   |
 | `--no-hmr`          | Disables [hot reloading](/features/development/#hot-reloading).                                                                            |
-| `--hmr-port <port>` | The port for the HMR server (defaults to the dev server's port). See [Hot reloading](/features/development/#hot-reloading).                |
-| `--hmr-host <host>` | The host for the HMR server (defaults to the dev server's host). See [Hot reloading](/features/development/#hot-reloading).                |
+| `--hmr-port <port>` | The port for the HMR server (defaults to the dev server's port). See [Hot reloading](/features/development/#hot-reloading).                |               |
 | `--no-autoinstall`  | Disables [auto install](/features/development/#auto-install).                                                                              |
 | `--watch-dir`       | Set the root watch directory. Useful for monorepos that have lockfiles in sub-projects.                                                    |
 | `--watch-for-stdin` | Stop Parcel once stdin is closed.                                                                                                          |
